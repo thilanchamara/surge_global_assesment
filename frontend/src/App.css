@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Nunito:wght@200;300;400;600;700&display=swap');
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+.brand-logo{
+    font-family: "Grand Hotel", cursive;
+}
+.login-container{
+    margin-top: 35px;
+}
+.login-card{
+    max-width: 450px;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+}
+.input-field input:focus {
+    border-bottom: 1px solid #1a0b8cb6 !important;
+    box-shadow: 0 1px 0 0 #1a0b8cb6 !important;
+  }
+.login-container h6 {
+    color: black !important; /* Change this to the desired color */
+    margin-top: 10px; /* Optional: Add some spacing */
+}
